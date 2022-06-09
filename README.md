@@ -1,8 +1,8 @@
 # GridworldEnv-QTableLearning
 
-## _A little toy gridworld for Q-Learning._
+### _A little toy gridworld for Q-Learning._
 
-## The environment looks like this:
+### The environment looks like this:
 
 |‎|‎|‎|
 | --- | --- | --- |
@@ -10,7 +10,7 @@
 | [0,1] | [1,1] | [2,1] |
 | [0,0] init | [1,0] 🔥| [2,0] ⭐ |
 
-## Rewards:
+### Rewards:
 
 |‎|‎|‎|
 | --- | --- | --- |
@@ -18,7 +18,7 @@
 | 0 | 0 | 0 |
 | 0 | -1 | +1 |
 
-## Learned values with gamma = 0.9:
+### Learned values with gamma = 0.9:
 
 |‎|‎|‎|
 | --- | --- | --- |
