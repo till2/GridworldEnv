@@ -1,4 +1,4 @@
-# GridworldEnv-QTableLearning
+# GridworldEnv
 
 ### _A tiny 3x3 gridworld for Q-Learning._
 
