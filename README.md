@@ -1,6 +1,6 @@
 # GridworldEnv-QTableLearning
 
-## _A custom toy gridworld for Quality Learning._
+## _A little toy gridworld for Q-Learning._
 
 ## The environment looks like this:
 
