@@ -1,6 +1,6 @@
 # GridworldEnv-QTableLearning
 
-### _A little toy gridworld for Q-Learning._
+### _A tiny 3x3 gridworld for Q-Learning._
 
 ### The environment looks like this:
 
@@ -26,6 +26,10 @@
 | 0.73 | 0.81 | 0.9 |
 | 0.66 | -1.0 | 1.0 |
 
+### Update rule
+
+<img src="https://github.com/till2/GridworldEnv-QTableLearning/blob/main/Q-Update.png?raw=true" width="800" height="90"/>
+ 
 ## Files
 
 | File | Desc |
