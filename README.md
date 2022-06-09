@@ -2,14 +2,38 @@
 
 ## _A custom toy gridworld for Quality Learning._
 
+## The environment looks like this:
+
+|‎|‎|‎|
+| --- | --- | --- |
+| [0,2] | [1,2] | [2,2] |
+| [0,1] | [1,1] | [2,1] |
+| [0,0] init | [1,0] 🔥| [2,0] ⭐ |
+
+## Rewards:
+
+|‎|‎|‎|
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 0 | 0 |
+| 0 | -1 | +1 |
+
+## Learned values with gamma = 0.9:
+
+|‎|‎|‎|
+| --- | --- | --- |
+| 0.66 | 0.73 | 0.81 |
+| 0.73 | 0.81 | 0.9 |
+| 0.66 | -1.0 | 1.0 |
+
 ## Files
 
 | File | Desc |
 | ------ | ------ |
-|  gridworld_env.py  | Custom little 3x3 gridworld with bad and good terminal states |
-|  agent.py  | Includes the QTableAgent for solving small discrete environments like this gridworld |
-|  train.py  | Train the QTableAgent. |
-|  play.py  | Let the agent navigate in the environment by using the pretrained q_table! |
+|  ![gridworld_env](gridworld_env.py)  | Custom little 3x3 gridworld with bad and good terminal states |
+|  ![agent](agent.py)  | Includes the QTableAgent for solving small discrete environments like this gridworld |
+|  ![train](train.py)  | Train the QTableAgent. |
+|  ![play](play.py)  | Let the agent navigate in the environment by using the pretrained q_table! |
 |  q_table.npy | Pretrained q_table, can be loaded in play.py. |
 
 
