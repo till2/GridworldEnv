@@ -30,8 +30,8 @@
 
 | File | Desc |
 | ------ | ------ |
-|  ![gridworld_env](gridworld_env.py)  | Custom little 3x3 gridworld with bad and good terminal states |
-|  ![agent](agent.py)  | Includes the QTableAgent for solving small discrete environments like this gridworld |
+|  ![gridworld_env](gridworld_env.py)  | Little 3x3 gridworld. |
+|  ![agent](agent.py)  | QTableAgent for solving small discrete environments like this gridworld |
 |  ![train](train.py)  | Train the QTableAgent. |
 |  ![play](play.py)  | Let the agent navigate in the environment by using the pretrained q_table! |
 |  q_table.npy | Pretrained q_table, can be loaded in play.py. |
