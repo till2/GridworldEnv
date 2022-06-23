@@ -2,7 +2,9 @@
 
 <img src="https://github.com/till2/GridworldEnv/blob/main/robot-img?raw=true" width="450" height="450"/>
 
-### _A tiny 3x3 gridworld for Q-Learning._
+_A tiny 3x3 gridworld for a demonstration of Q-Learning._
+
+<hr>
 
 ### The environment looks like this:
 
@@ -28,7 +30,8 @@
 | 0.73 | 0.81 | 0.9 |
 | 0.66 | -1.0 | 1.0 |
 
-### Update rule
+
+## Update rule
 
 <img src="https://github.com/till2/GridworldEnv-QTableLearning/blob/main/Q-Update.png?raw=true" width="800" height="90"/>
  
