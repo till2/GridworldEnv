@@ -1,5 +1,7 @@
 # GridworldEnv
 
+<img src="https://github.com/till2/GridworldEnv/blob/main/robot-img?raw=true" width="450" height="450"/>
+
 ### _A tiny 3x3 gridworld for Q-Learning._
 
 ### The environment looks like this:
