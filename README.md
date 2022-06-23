@@ -47,6 +47,9 @@ _A tiny 3x3 gridworld for a demonstration of Q-Learning._
 
 
 ## Sample episode
+
+<img src="https://github.com/till2/GridworldEnv/blob/main/gridworld-img?raw=true" width="200" height="200"/>
+
 Here the __QTableAgent__ jeff was run with __gamma = 0.9__.
 
 ```
